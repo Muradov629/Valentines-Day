@@ -12,9 +12,9 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
+      "Yio",
+      "?",
+      "Həqiqətən?",
       "Think again!",
       "Last chance!",
       "Surely not?",
@@ -34,7 +34,7 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">      
+    <div className="centered-container">
       <div className="valentine-container">
         {yesPressed ? (
           <>
